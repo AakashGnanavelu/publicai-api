@@ -16,11 +16,12 @@ Features
 
 Installation
 ------------
+Find the latest download instructions on [TestPyPI](https://test.pypi.org/project/publicai-api/).
 
 From PyPI:
 
 ```bash
-pip install publicai-api
+pip install -i https://test.pypi.org/simple/ publicai-api
 ```
 
 Install as `publicai-api`; in code you still import from `publicai`:
