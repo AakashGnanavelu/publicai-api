@@ -1,8 +1,7 @@
 """
-Public AI Python client.
+publicai-api – Official Public AI Python client.
 
-Unofficial helper library for working with the
-Public AI Gateway (`https://platform.publicai.co/docs`).
+Python client for the Public AI Gateway (https://platform.publicai.co/docs).
 """
 
 from .client import (
