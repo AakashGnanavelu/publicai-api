@@ -1,7 +1,32 @@
+Metadata-Version: 2.4
+Name: publicai
+Version: 0.1.0
+Summary: Unofficial Python client for the Public AI Gateway (platform.publicai.co).
+Author-email: Public AI Community <devnull@example.com>
+License: MIT
+Project-URL: Homepage, https://platform.publicai.co/docs
+Project-URL: Source, https://github.com/forpublicai
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.31.0
+Dynamic: license-file
+
 Public AI Python Client
 =======================
 
-Python helper for the **Public AI Gateway**.
+Unofficial, featureful Python helper for the **Public AI Gateway**.
 It wraps the HTTP API documented at `https://platform.publicai.co/docs` and
 `https://platform.publicai.co/api`.
 

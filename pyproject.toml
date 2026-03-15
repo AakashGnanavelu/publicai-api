@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "publicai"
 version = "0.1.0"
-description = "Unofficial Python client for the Public AI Gateway (platform.publicai.co)."
+description = "Python client for the Public AI Gateway (platform.publicai.co)."
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
@@ -15,23 +15,23 @@ authors = [
 dependencies = [
   "requests>=2.31.0",
 ]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
 
 [project.urls]
 Homepage = "https://platform.publicai.co/docs"
 Source = "https://github.com/forpublicai"
-
-[project classifiers]
-Programming Language :: Python :: 3
-Programming Language :: Python :: 3 :: Only
-Programming Language :: Python :: 3.8
-Programming Language :: Python :: 3.9
-Programming Language :: Python :: 3.10
-Programming Language :: Python :: 3.11
-Programming Language :: Python :: 3.12
-License :: OSI Approved :: MIT License
-Intended Audience :: Developers
-Topic :: Software Development :: Libraries
-Topic :: Scientific/Engineering :: Artificial Intelligence
 
 [tool.setuptools]
 packages = ["publicai"]
