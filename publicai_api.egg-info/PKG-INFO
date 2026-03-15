@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: publicai-api
-Version: 0.1.2
+Version: 0.1.5
 Summary: Official Python client for the Public AI Gateway (platform.publicai.co).
 Author-email: Public AI <devnull@example.com>
 License-Expression: MIT
@@ -40,6 +40,7 @@ Features
 
 Installation
 ------------
+Find the latest download instructions on [TestPyPI](https://test.pypi.org/project/publicai-api/).
 
 From PyPI:
 
@@ -289,32 +290,3 @@ Error Handling
 - **PublicAIAuthenticationError**: Raised when an API key is missing.
 - **PublicAIAPIError**: Raised when the HTTP status is not 2xx. The exception
   includes the status code and any parsed JSON payload.
-
-Publishing to TestPyPI
------------------------
-
-The docs shown on TestPyPI (including this README) come from the package you upload. To push the latest package (and thus the latest docs) to TestPyPI:
-
-1. **Bump the version** – TestPyPI does not allow re-uploading the same version. Update the version in both places:
-   - `publicai/version.py` → set `__version__ = "0.1.1"` (or your next version)
-   - `pyproject.toml` → set `version = "0.1.1"` under `[project]`
-
-2. **Install build tools** (if needed):
-   ```bash
-   pip install build twine
-   ```
-
-3. **Clean, build, and upload**:
-   ```bash
-   rm -rf dist/
-   python -m build
-   python -m twine upload --repository testpypi dist/*
-   ```
-
-4. When prompted, use your TestPyPI username and a [TestPyPI API token](https://test.pypi.org/manage/account/token/) (not your password).
-
-To install from TestPyPI after uploading:
-```bash
-pip install --index-url https://test.pypi.org/simple/ publicai-api
-```
-

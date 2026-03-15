@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "publicai-api"
-version = "0.1.0"
+version = "0.1.5"
 description = "Official Python client for the Public AI Gateway (platform.publicai.co)."
 readme = "README.md"
 requires-python = ">=3.8"
