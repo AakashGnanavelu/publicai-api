@@ -195,7 +195,6 @@ from publicai import PublicAIClient
 client = PublicAIClient(api_key="YOUR_API_KEY", user_agent="MyApp/1.0")
 models_response = client.list_models()
 
-# Structure depends on the API; often a "data" list of model objects
 for model in models_response.get("data", []):
     print(model.get("id", model))
 ```
