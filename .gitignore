@@ -1,2 +1,4 @@
 /.venv
 pypi.txt
+tests/
+text.txt
